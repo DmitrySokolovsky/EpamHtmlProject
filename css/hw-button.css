@@ -1,0 +1,25 @@
+.hw-button{
+	border-radius: 22px;
+}
+
+.hw-button--white-back{
+	background-color: white;
+}
+
+.hw-button--solid-border{
+	border: 2px solid black;
+}
+
+.hw-button__content{
+	padding: 14px 37px;
+	font-family: SourseSansPro;
+    font-size: 15px;
+	font-weight: bold;	
+	border-radius: 22px;
+	background-color: transparent;
+	background-color: #F0E2D7;
+}
+
+.hw-button__content--wide{
+	padding: 14px 122px;
+}

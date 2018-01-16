@@ -1,0 +1,28 @@
+.hw-marked-list{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	color: white;
+}
+
+.hw-marked-list__item{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.hw-marked-list__text{
+	font-family: SourseSansPro;
+    font-size: 14px;
+    color: white;
+}
+
+.hw-marked-list__text--title{
+	font-size: 18px;
+}
+
+.hw-marked-list__text--bold-black{
+	font-weight: bold;
+	color: black;
+	font-size: 16px;
+}

@@ -1,0 +1,87 @@
+@font-face{
+    font-family: 'SourseSansPro';
+    src: url('../font/SourceSansPro-Light.otf'); 
+    font-style: normal;
+    font-weight: normal; 
+}
+
+@font-face{
+    font-family: 'SourseSansPro';
+    src: url('../font/SourceSansPro-Semibold.otf');
+    font-style: normal;
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.hw-page__head-line{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hw-page__head-line--absolute-pos{
+    position: absolute;
+}
+
+.hw-page__line{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.hw-page__footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;   
+}
+
+footer{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hw-footer__social-icons-container{
+    margin-top: 45px;
+}
+
+
+.hw-social-icons{
+    display: flex;
+    width: 236px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.hw-footer__copyright{
+    text-align: center;
+} 
+
+.hw-footer__text{
+    font-family: SourseSansPro;
+    font-weight: 15px;
+}
+
+.hw-footer__text--yellow{
+    color: #EBCA98;
+}
+
+.hw-footer__social-link{
+    color: black;
+}
+
+.hw-footer__social-link:hover{
+    color: #E9714C;    
+}

@@ -1,0 +1,32 @@
+.hw-nav__nav-container{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin-top: 27px;
+    margin-right: 100px;
+}
+
+.hw-nav__item{
+	text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.hw-nav__link{
+	text-decoration: none;
+	color: black;
+}
+
+.hw-nav__link:hover{
+    color: #DCC192;	
+}
+
+.hw-nav__link--active{
+    color: #DCC192;
+}
+
+.hw-button__nav{
+    display: none;
+}
+    

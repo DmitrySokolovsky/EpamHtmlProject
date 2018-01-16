@@ -1,0 +1,62 @@
+.hw-image__container{
+	width: 50%;
+}
+
+.hw-image__container--min{
+	width: 25%;
+}
+
+.hw-image__container--max{
+	width: 100%;
+}
+
+.hw-image :first-child{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.hw-image__main-img{
+	background: url(../img/main-image.jpg) no-repeat center;
+	background-size: 100%;
+	height: 757px;
+	width: 100%;
+}
+
+.hw-image__skill-img{
+	background: url(../img/skills-image.jpg);
+	background-size: 100%;
+	height:300px;
+	width: 100%;
+}
+
+.hw-image__ex-img{
+	background: url(../img/my-ex-image.jpg);
+	height: 300px;
+	width: 100%;
+}
+
+.hw-image__ed-img{
+	background: url(../img/my-ed-image.jpg);
+	height: 300px;
+	width: 100%;
+}
+
+.hw-image__slogan-img{
+	background: url(../img/slogan-image.jpg) ;
+	height: 440px;
+	width: 100%;
+}
+
+.hw-image__contact-img{
+	background: url(../img/contact-image.jpg);
+	height: 570px;
+	width: 100%;
+}
+
+.hw-image__slogan-img--inner-pos{
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+}

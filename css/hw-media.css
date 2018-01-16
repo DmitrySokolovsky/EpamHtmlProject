@@ -1,0 +1,130 @@
+@media screen and (max-width: 1024px){
+
+    .hw-head__logo{
+        display: none;
+    }
+
+    .hw-page__head-line{
+        justify-content: center;
+    }
+
+    .hw-nav__nav-container{
+        margin-right: 0px;
+    }
+
+    .hw-page__line--reverse{
+        flex-wrap: wrap-reverse;
+        background-color: #F0E2D7;
+    }
+
+    .hw-cell__small-flex-container{
+        width: 100%;
+    }
+
+    .hw-image__container{
+        width: 100%;
+    } 
+
+    .hw-image__main-img{
+        width: 100%;
+    }
+
+    .hw-cell__flex-container{
+        width: 100%;
+    }
+    .hw-image__container--min{
+        width: 50%;
+    }
+
+    .hw-image__skill-img{
+        width: 100%;
+    }  
+
+    .hw-feat-item{
+        width: 50%;
+    }
+
+    .hw-image__ex-img{
+        width: 100%;
+    }
+
+    .hw-image__ed-img{
+        width: 100%;
+    }
+
+    .hw-image__contact-img{
+        width: 100%;
+    }
+
+    .hw-feat-item__container{
+        width: 50%;
+    } 
+
+    .hw-feat-item__container--thin{
+        width: 50%;
+    }
+
+    .hw-image__slogan-img{
+        width: 100%;
+    } 
+
+    .hw-form__container{
+        width: 100%;
+    }
+    
+    .hw-contact__container--media-min{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .hw-button__nav{
+        display: block;
+        margin-top: 10px;
+    }
+
+    .hw-nav:hover .hw-nav__nav-container{
+        display: flex;
+    }
+
+    .hw-nav__nav-container{
+        display: none;
+        flex-direction: column;
+        background-color: gray;
+        width: 100%;
+    }
+
+    .hw-marked-list{
+        width: 90%;
+    }        
+
+    .hw-marked-list__text{
+        font-family: SourseSansPro;
+        font-size: 11px;
+        color: white;
+    }
+
+    .hw-marked-list__text--title{
+        font-size: 15px;
+    }
+
+    .hw-marked-list__text--bold-black{
+        font-weight: bold;
+        color: black;
+        font-size: 13px;
+    }
+
+    .hw-image__container--min{
+        width: 100%;
+    }
+    .hw-feat-item__container--thin{
+        width: 100%;
+    }
+    .hw-contact__container--media-min{
+        width: 100%;
+        height: 400px;
+    }
+    .hw-feat-item__container{
+        width: 100%;
+    } 
+}

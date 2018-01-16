@@ -1,0 +1,43 @@
+.hw-range{
+	display: flex;
+	flex-direction: column;
+}
+
+.hw-range__item{
+	margin-top: 20px;
+}
+
+.hw-range__name-container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.hw-range__bar{
+	height: 3px;
+	background-color: white;
+}
+
+.hw-range__progress{
+	width: 82%;
+	background-color: black;
+	height: 100%
+}
+
+.hw-range__progress--middle{
+	width: 89%;
+}
+
+.hw-range__progress--wide{
+	width: 95%;
+}
+
+.hw-range__text{
+	font-family: SourseSansPro;
+    font-size: 14px;
+    color: black; 
+    font-weight: bold;
+}
+
+.hw-range__text--white{
+	color: white;
+}

@@ -1,0 +1,11 @@
+.hw-head__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hw-head__logo{
+    margin-top: 21px;
+    margin-left: 100px;
+    font-weight: bold;
+    font-family: SourseSansPro;
+}

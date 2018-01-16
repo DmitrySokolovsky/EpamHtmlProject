@@ -1,0 +1,44 @@
+.hw-contact__container{
+	background-color: #191919; 
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.hw-contact__adress{
+	margin-bottom: 55px;
+}
+
+.hw-contact__item{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 27px;
+}
+
+.hw-contact__text{
+	font-family: SourseSansPro;
+    font-size: 15px;
+    color: white;
+}
+
+.hw-contact__text--title{
+	font-family: SourseSansPro;
+    font-size: 30px;
+    color: white;
+}
+
+.hw-contact__text--grey{
+	color: #616161;
+}
+
+.hw-contact__text--yellow{
+	color: #EBCA98;
+}
+
+.hw-contact__link:hover{
+    color: #E9714C;
+}
